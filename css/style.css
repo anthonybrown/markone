@@ -416,7 +416,7 @@ header {
   width:100%;
   max-width: 500px;
   height: 85px;
-  background: #fff url(../img/banner_small.jpg)no-repeat;
+  background: #fff url(../img/banner_small.jpg) no-repeat;
 }
   header h1 {
     width:105px;
@@ -426,7 +426,7 @@ header {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(../img/logo_small.png)no-repeat 0 25px;
+    background: url(../img/logo_small.png) no-repeat 0 25px;
   }
 
 /* #main-content Styles
@@ -594,7 +594,3 @@ footer nav, footer nav a {
       text-transform: uppercase;
       padding: 1em;
     }
-      footer nav ul li:first-child {
-
-      }
-
