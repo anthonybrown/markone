@@ -747,7 +747,7 @@ footer {
     float: left;
     clear: right;
     padding: 0;
-    margin:0;
+    margin:0 0 2em 0;
   }
     article.profile img {
       margin: 0;
@@ -759,7 +759,7 @@ footer {
       float: right;
       clear: both;
       padding:0;
-      margin: -75px 0 0 0;
+      margin: -75px 0 1em 0;
     }
 
   form {
@@ -771,16 +771,27 @@ footer {
     top: 340px;
     right: 30px;
   }
+/*=====================================================
+ * Footer stuff
+ * ===================================================*/
 
-  .footer-nav {
-    display: none;
+  footer {
+    width: 100%;
+    height: auto;
+    line-height: 1.5em;
+    font-style: italic;
+    color: #fafafa;
+    margin: 1em 0 0 0;
   }
 
-
-
-  .footer-nav {
-    display: none;
+  footer p {
+    padding: 1em;
   }
+
+    .footer-nav {
+      display: none;
+    }
+
 
   hr { display: none; }
 }
