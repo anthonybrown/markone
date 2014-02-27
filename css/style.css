@@ -571,7 +571,11 @@ footer {
   width:100%;
   padding: 0;
   margin: 0;
+  color: #fff;
 }
+  footer p {
+    display: none;
+  }
 
 /* Footer Nav Styles
  *
@@ -678,7 +682,10 @@ footer {
     clear: both;
     margin: -590px 0 0 0;
   }
-
+  footer p {
+    display: inline-block;
+    margin:0 1em;
+  }
   .footer-nav {
     display: none;
   }
@@ -785,6 +792,8 @@ footer {
   }
 
   footer p {
+    display: inline-block;
+    margin-right: 2em;
     padding: 1em;
     color: #fff;
   }
