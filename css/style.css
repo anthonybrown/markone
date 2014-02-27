@@ -416,7 +416,7 @@ header {
   width:100%;
   max-width: 500px;
   height: 85px;
-  background: #fff url(../img/banner_small.jpg)no-repeat;
+  background: #fff url(../img/banner_small.jpg) no-repeat;
 }
   header h1 {
     width:105px;
@@ -426,7 +426,7 @@ header {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background: url(../img/logo_small.png)no-repeat 0 25px;
+    background: url(../img/logo_small.png) no-repeat 0 25px;
   }
 
 /* #main-content Styles
@@ -487,7 +487,7 @@ article.profile section {
   font-weight: 900;
   font-size:0.9em;
   color: #00A1D3;
-  background: url(../img/cta_arrow.png) 75px 5px no-repeat;
+  background: url(../img/cta_arrow.png) 85px 5px no-repeat;
 }
   .read-more:hover {
     cursor: pointer;
@@ -499,7 +499,7 @@ article.profile section {
   font-weight: 900;
   font-size:0.9em;
   color: #00A1D3;
-  background: url(../img/cta_arrow.png) no-repeat 80px 5px;
+  background: url(../img/cta_arrow.png) no-repeat 90px 5px;
 }
   .learn-more:hover {
     cursor: pointer;
