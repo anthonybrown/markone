@@ -499,7 +499,11 @@ article.profile section {
   font-weight: 900;
   font-size:0.9em;
   color: #00A1D3;
+<<<<<<< HEAD
   background: url(../img/cta_arrow.png)80px 5px no-repeat;
+=======
+  background: url(../img/cta_arrow.png) no-repeat 80px 5px;
+>>>>>>> master
 }
   .learn-more:hover {
     cursor: pointer;
@@ -597,3 +601,7 @@ footer nav, footer nav a {
       footer nav ul li:first-child {
 
       }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
