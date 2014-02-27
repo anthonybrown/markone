@@ -605,7 +605,7 @@ footer {
  * ============================================================*/
 
 @media all and (max-width: 800px) and (min-width: 501px) {
-  .wrap { background-color: transparent; }
+  .wrap { background-color: transparent; margin: 0; padding: 0; }
 
   hr { display: none; }
 
@@ -656,16 +656,27 @@ footer {
     width: 60%;
   }
 
-  .profile {
-    width: 60%;
+  article.profile {
+    width: 30%;
     float: left;
+    clear: right;
   }
+    article.profile img {
+      float: left;
+      clear: both;
+    }
+
+   article.profile section {
+      float: left;
+      width: auto;
+    }
 
   form {
     width: 35%;
     max-width: 320px;
     float: right;
-    margin: -700px 0 0 0;
+    clear: both;
+    margin: -590px 0 0 0;
   }
 
   .footer-nav {
@@ -674,12 +685,13 @@ footer {
 }
 
 
-@media all and (min-width: 801px) {
+@media all and (max-width:1400px) and (min-width: 801px) {
   .wrap {
     width: 90%;
     max-width:980px;
     background-color: transparent;
     margin: 0 auto;
+    padding: 0;
   }
 
   header {
@@ -730,16 +742,34 @@ footer {
     width: 60%;
   }
 
-  .profile {
-    width: 60%;
+  article.profile {
+    width: 35%;
     float: left;
+    clear: right;
+    padding: 0;
+    margin:0;
   }
+    article.profile img {
+      margin: 0;
+      padding:0;
+      float: left;
+      clear: both;
+    }
+    article.profile section {
+      float: right;
+      clear: both;
+      padding:0;
+      margin: -75px 0 0 0;
+    }
 
   form {
+    position: absolute;
     width: 35%;
-    max-width: 320px;
-    float: right;
-    margin: -400px 0 0 0;
+    max-width: 340px;
+    padding: 0;
+    margin:0;
+    top: 340px;
+    right: 30px;
   }
 
   .footer-nav {
