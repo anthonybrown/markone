@@ -624,8 +624,8 @@ footer {
     background: #fff url(../img/banner_medium.jpg)no-repeat;
   }
   header h1 {
-    width:115px;
-    height:80px;
+    width:150px;
+    height:100px;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -709,7 +709,7 @@ footer {
     background: #fff url(../img/banner_large.jpg)no-repeat;
   }
     header h1 {
-      width:150px;
+      width:159px;
       height:104px;
       text-indent: 100%;
       white-space: nowrap;
