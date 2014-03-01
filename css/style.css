@@ -420,7 +420,7 @@ header {
   z-index: 1;
 }
   header h1 {
-    width:135px;
+    width:105px;
     height:100px;
     /*I'm assuming you want the image that's provided.If you want the white background uncomment*/
     text-indent: 100%;
@@ -571,14 +571,7 @@ footer {
   width:100%;
   padding: 0;
   margin: 0;
-  color: #fff;
-  font-style: italic;
 }
-  footer p {
-    padding: 1em;
-    color: #fff;
-    margin: 0 0 0 1em;
-  }
 
 /* Footer Nav Styles
  *
@@ -624,8 +617,8 @@ footer {
     background: #fff url(../img/banner_medium.jpg)no-repeat;
   }
   header h1 {
-    width:150px;
-    height:100px;
+    width:115px;
+    height:80px;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -692,7 +685,7 @@ footer {
 }
 
 
-@media all and (max-width:1690px) and (min-width: 801px) {
+@media all and (max-width:1680px) and (min-width: 801px) {
   .wrap {
     width: 90%;
     max-width:980px;
@@ -709,7 +702,7 @@ footer {
     background: #fff url(../img/banner_large.jpg)no-repeat;
   }
     header h1 {
-      width:200px;
+      width:150px;
       height:104px;
       text-indent: 100%;
       white-space: nowrap;
@@ -770,13 +763,15 @@ footer {
     }
 
   form {
-    position: absolute;
+    /*position: absolute;*/
     width: 35%;
     max-width: 340px;
+    float: right;
+    clear: both;
     padding: 0;
-    margin:0;
-    top: 340px;
-    right: 10%;
+    margin:-500px -35px 0 0;
+    /*top: 340px;
+    right: 30px;*/
   }
 /*=====================================================
  * Footer stuff
@@ -799,6 +794,7 @@ footer {
     .footer-nav {
       display: none;
     }
+
 
   hr { display: none; }
 }
