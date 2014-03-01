@@ -575,6 +575,7 @@ footer {
 }
   footer p {
     text-align: center;
+    color: #fff;
   }
 
 /* Footer Nav Styles
@@ -683,6 +684,15 @@ footer {
     margin: -590px 0 0 0;
   }
 
+  footer p {
+    text-align: left;
+    margin: 0.5em 4em 0 1em;
+    display: inline-block;
+  }
+    footer p.validation {
+      text-align: right;
+      float: right;
+    }
   .footer-nav {
     display: none;
   }
@@ -774,8 +784,6 @@ footer {
     clear: both;
     padding: 0;
     margin:-500px -35px 0 0;
-    /*top: 340px;
-    right: 30px;*/
   }
 /*=====================================================
  * Footer stuff
@@ -791,10 +799,15 @@ footer {
   }
 
   footer p {
+    text-align: left;
+    display: inline-block;
     padding: 1em;
     color: #fff;
   }
-
+    footer p.validation {
+      text-align: right;
+      float: right;
+    }
     .footer-nav {
       display: none;
     }
