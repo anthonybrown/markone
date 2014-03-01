@@ -420,7 +420,7 @@ header {
   z-index: 1;
 }
   header h1 {
-    width:105px;
+    width:125px;
     height:100px;
     /*I'm assuming you want the image that's provided.If you want the white background uncomment*/
     text-indent: 100%;
@@ -622,7 +622,7 @@ footer {
     background: #fff url(../img/banner_medium.jpg)no-repeat;
   }
   header h1 {
-    width:115px;
+    width:140px;
     height:80px;
     text-indent: 100%;
     white-space: nowrap;
