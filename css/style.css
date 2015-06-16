@@ -566,10 +566,6 @@ form ul li {
 
 
 footer {
-    
-  position: absolute;
-  bottom: 0;
-  left: 0;
   background-color:#00A1D3;
   clear: both;
   width:100%;
@@ -689,6 +685,9 @@ footer {
   }
 
   footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     padding: 1em 0;
   }
   footer p {
